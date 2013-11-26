@@ -17,7 +17,7 @@ function generate(passage) {
       }
       result += word + ' ';
   }
-  result = result.replace(/ ,/g,',').replace(/ \./g,'.').replace(/ \!/g,'!');
+  result = result.replace(/ ,/g,',').replace(/ \./g,'.').replace(/ \!/g,'!').replace(/ \?/g,'?');
   console.log(result);
   var generatedText = result;
   var sharedText = passage;
