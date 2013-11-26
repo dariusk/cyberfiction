@@ -1,0 +1,23 @@
+body {
+  margin: 30px;
+  font-family: sans-serif;
+  width: 600px;
+}
+h1 {
+  margin-bottom: -20px;
+}
+h2 {
+  color: rgba(0,0,0,0.5);
+}
+h3 {
+  margin-top: -20px;
+  color: rgba(0,0,0,0.5);
+}
+a {
+  color: rgba(0,0,255,0.45);
+}
+textarea {
+  margin-bottom:30px;
+  width: 500px;
+  height: 200px;
+}
